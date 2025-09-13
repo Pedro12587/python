@@ -1,0 +1,19 @@
+{
+    "clientes": [
+        {
+            "nome": "22",
+            "email": "22",
+            "idade": ""
+        },
+        {
+            "nome": "pedro",
+            "email": "pedro1212",
+            "idade": "20"
+        },
+        {
+            "nome": "pedro",
+            "email": "pedro300700@gmail.com",
+            "idade": "25"
+        }
+    ]
+}
