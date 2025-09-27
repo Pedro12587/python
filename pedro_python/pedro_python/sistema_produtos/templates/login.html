@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Login </title>
+    </head>
+    <body>
+        <h1>PEDRO CADASTRO</h1>
+        <form action="login" method="post">
+            <label> Usuario </label>
+            <input type="text" name="usuario">
+
+            <label> Senha </label>
+            <input type="password" name="senha">
+
+            <button type="submit">Logar</button>
+
+        </form>
+    </body>
+    <script>
+            const queryString = window.location.search;
+               const urlParams = new URLSearchParams(queryString);
+                const name = urlParams.get('error');
+
+                if (name) {
+                    alert("Senha errada.")
+                }
+    </script>
+</html>
